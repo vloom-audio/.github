@@ -52,15 +52,29 @@ Full setup per OS is in each repository's `docs/getting-started.md`. Read
 
 ### Commit messages
 
-We use [Conventional Commits](https://www.conventionalcommits.org/):
+We use [Conventional Commits](https://www.conventionalcommits.org/) with a
+[Gitmoji](https://gitmoji.dev/) in front. The scope is optional.
 
 ```
-feat(engine): add swing to the step sequencer
-fix(ui): keep playhead label from flickering
-docs: explain the render graph
+✨ feat(engine): add swing to the step sequencer
+🐛 fix(ui): keep the playhead label from flickering
+📝 docs: explain the render graph
 ```
 
-Types: `feat`, `fix`, `perf`, `refactor`, `test`, `docs`, `build`, `ci`, `chore`.
+| Gitmoji | Type | For |
+|---|---|---|
+| ✨ | `feat` | A new feature |
+| 🐛 | `fix` | A bug fix |
+| 🔒 or 🛡️ | `sec` | Security fixes and CVE patches |
+| 👷 or 🐳 | `ops` | CI, build and release tooling, containers |
+| 🔍 or 🔬 | `re` | Reverse-engineering notes and analysis |
+| ♻️ | `refactor` | Restructuring that does not change behaviour |
+| 🧪 or ✅ | `test` | Adding or fixing tests |
+| 📝 | `docs` | Documentation |
+| 📦 or 🔧 | `chore` | Dependencies, configuration, maintenance |
+
+There is no `perf`, `build` or `ci` type: use `ops` for CI and build changes,
+and `refactor` (or `fix`, if it was a real problem) for performance work.
 
 ## Code rules that matter most
 
