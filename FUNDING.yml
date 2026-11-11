@@ -1,0 +1,7 @@
+# Shows the "Sponsor" button on every repository in the vloom-audio organisation.
+# Uncomment the platforms once the accounts exist.
+github: [vloom-audio]
+# open_collective: vloom-audio
+# ko_fi: vloomaudio
+# patreon: vloomaudio
+# custom: ["https://vloom-audio.com/donate"]
