@@ -20,9 +20,9 @@
 
 ## 🎛️ About VloomDAW
 
-**VloomDAW** is a fast, modern, pattern-based Digital Audio Workstation built in the spirit of FL Studio—designed from the ground up for beatmakers, producers, and sound designers who want a native, cross-platform workflow without proprietary lock-in.
+**VloomDAW** is a modern, high-performance Digital Audio Workstation engineered around a rapid, pattern-centric workflow. Built from the ground up for producers, composers, and sound designers, it combines intuitive musicality with deterministic, low-latency native performance—delivering a truly cross-platform studio environment without proprietary lock-in.
 
-> 🚧 **Status: Early Development** — We are actively building the core DSP library, audio engine, and UI. Follow along, test early builds, and help shape the future of open-source music production!
+> **Development Status: Active Engineering (Pre-Alpha)** — Foundational work is currently underway across our DSP library, real-time audio engine, and desktop interface. Follow our repositories to track architectural milestones, evaluate early builds, and contribute to the ecosystem.
 
 ### ✨ Core Workflow Highlights
 
