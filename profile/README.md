@@ -1,5 +1,6 @@
 <div align="center">
-
+  <!-- เปลี่ยน URL รูปภาพด้านล่างเป็นลิงก์โลโก้หรือแบนเนอร์ของคุณ (แนะนำขนาด 120x120px สำหรับโลโก้) -->
+  <img src="https://github.com/vloom-audio.png" alt="Vloom Audio Logo" width="110" height="110" style="border-radius: 24px;" />
 # Vloom Audio
 
 **Free, 100% open-source music production software for macOS, Windows, and Linux.**
