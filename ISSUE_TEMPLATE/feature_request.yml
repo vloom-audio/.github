@@ -2,11 +2,33 @@ name: Feature request
 description: Suggest an idea or improvement
 labels: [enhancement]
 body:
+  - type: markdown
+    attributes:
+      value: >
+        Thanks for the idea! Please search the existing issues first, and have a look at the
+        [roadmap](https://github.com/vloom-audio/VloomDAW/blob/main/docs/roadmap.md): it may be planned already.
   - type: textarea
     id: problem
     attributes:
       label: What problem would this solve?
       description: Describe what you are trying to do and what gets in the way.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of VloomDAW is it about?
+      options:
+        - Playlist
+        - Piano roll
+        - Channel rack
+        - Mixer
+        - Plugins (hosting, built-in effects and instruments)
+        - Stem extractor
+        - Browser and samples
+        - Audio engine and devices
+        - Project files, export
+        - Something else, or not sure
     validations:
       required: true
   - type: textarea
