@@ -3,3 +3,6 @@ contact_links:
   - name: Security vulnerability
     url: https://github.com/vloom-audio/.github/blob/main/SECURITY.md
     about: Please report security problems privately, not as a public issue.
+  - name: Roadmap
+    url: https://github.com/vloom-audio/VloomDAW/blob/main/docs/roadmap.md
+    about: What is planned and in what order. Check it before asking for a feature.
